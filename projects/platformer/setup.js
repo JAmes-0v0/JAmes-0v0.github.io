@@ -93,8 +93,14 @@ let animationDetails = {};
 var collectableList = {
   database: { image: "images/collectables/database.png" },
   diamond: { image: "images/collectables/diamond-head.png" },
-  grace: { image: "images/collectables/grace-head.png" },
+  grace: {
+    image:
+      "https://piskel-imgstore-b.appspot.com/img/ccdb0fa1-6beb-11ef-8f27-1b7edbd14bf2.gif",
+  },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
-  steve: { image: "images/collectables/steve-head.png" },
+  steve: {
+    image:
+      "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/09/jack-black-s-steve-looking-confident-in-a-minecraft-movie.jpg",
+  },
 };

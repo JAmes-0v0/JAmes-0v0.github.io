@@ -1,0 +1,135 @@
+
+
+body{background-color: #f55693;}
+h1{color: white;
+text-align: left;
+}
+h2{color: white;
+    text-align: left;
+}
+h3{color: white;
+    background: #b60342;
+    border-radius: 25px;
+    padding: 40px;
+    text-align: center;
+   
+   
+}
+.chopper{color: #f55693;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 50px;
+    text-align: left;
+   
+   
+}
+p{color: #b60342;
+text-align: left;
+}
+.Links{color: white;}
+
+
+.gif{float: left;
+border-radius: 0px;}
+.image{float: right;
+border-radius: 25px;
+}
+
+
+   
+.Red{font-family: arial;
+background-color: #f75752;
+border-radius: 25px;
+padding: 20px;
+}
+
+.Blue{font-family: arial;
+    background-color: #0ad8f7;
+    border-radius: 25px;
+    padding: 20px;
+    }
+
+    .Green{font-family: arial;
+        background-color: #54f53b;
+        border-radius: 25px;
+        padding: 20px;
+        }
+
+
+
+body {
+   
+   
+    padding: 10px;
+    font-family: arial;
+}
+#all-contents {
+  max-width: 800px;
+    margin: auto;
+}
+
+
+/* navigation menu */
+nav {
+    background: #b60342;
+    border-radius: 25px;
+   margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+   
+    flex: 1;
+    margin: 0;
+}
+#nav-ul {
+    list-style-image: none;
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* main container area beneath menu */
+main {
+   
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+
+/* portfolio styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+}
+h2, h3 {
+    margin: 0px;
+}
+
+.dance{float: center;
+padding: 50px;
+border: 5px solid white;
+background-color: #b60342;}
+
+
+
+
+
