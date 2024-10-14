@@ -66,8 +66,9 @@
 			//////////////////////////////////////////////////////////////////
 
 			// TODO 2 - Variable declarations 
-
-
+			var posX = 0;
+			var number = 0;
+			var nummy = 10;
 
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -75,7 +76,18 @@
 			turn it around! 
 			*/
 			function update() {
+				moveBoxTo(posX);
+				posX += nummy;
+				if(posX > boardWidth)
+				{
+					nummy = nummy - (nummy * 2);
+				}
+				if(posX < 0)
+				{
+					nummy = nummy * -1;
+				}
 
+			
 
 			};
 
@@ -85,7 +97,13 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-
+				posX = 0;
+				number +=1;
+				changeBoxText(number);
+				if(nummy > 0)
+				nummy += 3;
+				if(nummy < 0)
+				nummy +=-3;
 
 			};
 
